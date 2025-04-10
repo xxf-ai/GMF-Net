@@ -165,7 +165,7 @@ def normalize_balls_by_radius(ball_list, detection_radius):
 
     return temp_ball_list
 
-def generate_granular_balls(dataset_name, data_path_prefix="D:\GSC\dataset\data_"):
+def generate_granular_balls(dataset_name, data_path_prefix="D:\cluster\dataset\data_"):
     try:
         mat_data = loadmat(f"{data_path_prefix}{dataset_name}.mat")
     except FileNotFoundError:
