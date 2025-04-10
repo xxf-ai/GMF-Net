@@ -362,7 +362,7 @@ def main():
 
     optimization_results = {}
 
-    DATASET_DIRECTORY = "D:\GSC\dataset"
+    DATASET_DIRECTORY = "" # Use your path
 
     if not os.path.isdir(DATASET_DIRECTORY):
         print(f"ERROR: Dataset directory not found: '{DATASET_DIRECTORY}'")
